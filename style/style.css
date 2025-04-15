@@ -173,24 +173,26 @@ section {
 
 /* Progress Bars */
 .progress-bar {
-  margin: 15px 0;
-  width: 100%;
+  margin-bottom: 1em;
 }
 
 .progress {
-  width: 0;
   height: 20px;
-  background-color: #000000;
-  border-radius: 5px;
-}
-
-.label {
-  font-weight: bold;
+  border: 1px solid black;
+  background: linear-gradient(
+    to right,
+    black 0%,
+    rgb(138, 138, 138) 50%,
+    rgba(179, 179, 179, 0.815) 100%
+  );
+  width: 0%;
+  transition: width 1s ease-in-out;
+  border-radius: 10px;
 }
 
 .percentage {
-  font-size: 14px;
   margin-left: 10px;
+  font-weight: bold;
 }
 
 /* Formulaire Contact */

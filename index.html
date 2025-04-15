@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mon Portfolio">
+  <title>Mon Portfolio</title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Mon Portfolio</div>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#accueil">Accueil</a></li>
+        <li><a href="#presentation">Présentation</a></li>
+        <li><a href="#carousel">Carrousel</a></li>
+        <li><a href="#competences">Compétences</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="accueil">
+      <h1>Bienvenue sur mon Portfolio</h1>
+      <div class="card-portfolio">
+        <img src="img/logo-1.webp" alt="fond ordinateur" class="image-portfolio">
+        <div class="text-portfolio">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate assumenda dolor, nemo libero voluptatibus repellat provident exercitationem eos ab harum aut! Itaque mollitia ad eius dignissimos laboriosam inventore similique sint.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="presentation">
+      <h2>Présentation</h2>
+      <div class="card-presentation">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate assumenda dolor, nemo libero voluptatibus repellat provident exercitationem eos ab harum aut! Itaque mollitia ad eius dignissimos laboriosam inventore similique sint.</p>
+      </div>
+    </section>
+
+    <section id="carousel">
+      <h2>Carrousel</h2>
+      <div class="carousel-container">
+        <div class="carousel-track" id="carousel-track">
+          <img src="img/logo-1.webp" alt="fond ordinateur">
+          <img src="img/logo-2.webp" alt="fond ordinateur">
+          <img src="img/logo-1.webp" alt="fond ordinateur">
+          <img src="img/logo-2.webp" alt="fond ordinateur">
+          <img src="img/logo-1.webp" alt="fond ordinateur">
+          <img src="img/logo-2.webp" alt="fond ordinateur">
+          <img src="img/logo-1.webp" alt="fond ordinateur">
+          <img src="img/logo-2.webp" alt="fond ordinateur">
+          <img src="img/logo-1.webp" alt="fond ordinateur">
+          <img src="img/logo-2.webp" alt="fond ordinateur">
+        </div>
+        <button class="carousel-btn prev" id="prevBtn">&#10094;</button>
+        <button class="carousel-btn next" id="nextBtn">&#10095;</button>
+      </div>
+    </section>
+
+    <section id="competences">
+      <h2>Compétences</h2>
+      <div class="card">
+        <h3>Compétences en Développement Web</h3>
+        <div class="progress-bar">
+          <span class="label">HTML</span>
+          <div class="progress" id="html-progress"></div>
+          <span class="percentage" id="html-percentage">0%</span>
+        </div>
+        <div class="progress-bar">
+          <span class="label">CSS</span>
+          <div class="progress" id="css-progress"></div>
+          <span class="percentage" id="css-percentage">0%</span>
+        </div>
+        <div class="progress-bar">
+          <span class="label">JavaScript</span>
+          <div class="progress" id="js-progress"></div>
+          <span class="percentage" id="js-percentage">0%</span>
+        </div>
+        <div class="progress-bar">
+          <span class="label">PHP</span>
+          <div class="progress" id="php-progress"></div>
+          <span class="percentage" id="php-percentage">0%</span>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Autres Compétences</h3>
+        <div class="progress-bar">
+          <span class="label">Github</span>
+          <div class="progress" id="github-progress"></div>
+          <span class="percentage" id="github-percentage">0%</span>
+        </div>
+        <div class="progress-bar">
+          <span class="label">Figma</span>
+          <div class="progress" id="figma-progress"></div>
+          <span class="percentage" id="figma-percentage">0%</span>
+        </div>
+        <div class="progress-bar">
+          <span class="label">VSCode</span>
+          <div class="progress" id="vscode-progress"></div>
+          <span class="percentage" id="vscode-percentage">0%</span>
+        </div>
+        <div class="progress-bar">
+          <span class="label">Blender</span>
+          <div class="progress" id="blender-progress"></div>
+          <span class="percentage" id="blender-percentage">0%</span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>

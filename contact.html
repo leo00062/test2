@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact - Mon Portfolio</title>
+  <link rel="stylesheet" href="style/style.css" />
+</head>
+
+<body>
+  <header>
+    <nav class="navbar">
+      <div class="logo">Mon Portfolio</div>
+      <div class="burger" id="burger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="index.html">Présentation</a></li>
+        <li><a href="index.html">Carrousel</a></li>
+        <li><a href="index.html">Compétences</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="contact">
+      <h2>Contactez-moi</h2>
+      <form action="#" method="POST">
+        <label for="nom">Nom :</label>
+        <input type="text" id="nom" name="nom" required placeholder="Tapez votre nom" />
+  
+        <label for="prenom">Prénom :</label>
+        <input type="text" id="prenom" name="prenom" required placeholder="Tapez votre prénom" />
+  
+        <label for="email">Email :</label>
+        <input type="email" id="email" name="email" required placeholder="Entrez votre email" />
+  
+        <label for="sujet">Sujet :</label>
+        <input type="text" id="sujet" name="sujet" required placeholder="Sujet du message" />
+  
+        <label for="message">Message :</label>
+        <textarea id="message" name="message" rows="5" required placeholder="Écrivez votre message ici..."></textarea>
+  
+        <button type="submit" class="btn">Envoyer</button>
+      </form>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
